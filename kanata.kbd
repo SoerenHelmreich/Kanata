@@ -1,0 +1,38 @@
+(defcfg
+)
+
+(defsrc
+  caps
+  s 
+  d 
+  f 
+  j 
+  k 
+  l
+  spc
+)
+
+(deflocalkeys-winiov2 
+  {     55
+  }     48
+  [     56
+  ]     57
+  lbr	56 
+  rbr	57 
+)
+
+
+(deflayermap (base)
+  caps  (tap-hold 200 200 esc (layer-while-held bracket))
+)
+
+
+(deflayermap (bracket)
+  f RA-{     
+  j RA-}    
+  d RA-[    
+  k RA-]   
+  s S-lbr	
+  l S-rbr	
+  spc bspc
+)
