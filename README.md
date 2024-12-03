@@ -1,5 +1,5 @@
 # Simple Keyboard Remap 
-Using [Kanata](https://github.com/jtroo/kanata)
+Using [Kanata](https://github.com/jtroo/kanata), I've made the bracket keys more reachable on a german keyboard.
 
 While holding CAPS:
 
